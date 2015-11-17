@@ -35,5 +35,17 @@ input {
   color: #F3F2F2;
   background-color: #565656;
 }
-}
+ .mood1 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 100%;
+ }
+
+ .mood2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100%;
+ }
 
