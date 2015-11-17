@@ -11,13 +11,14 @@
     <header>
       Petal's Test User List
     </header>
-<!--    <main>
-      <div class="row">
-        <% for (var i = 0; i < usertest.length(); i++) { %>
-          <p> <%= usertest.username %>  </p>
-          <% }; %>
-      </div>
-    </main> -->
-  </body>
+      <main>
 
+      <div class="row">
+      <% for (var i = 0; i < usertest.length; i++) { %>  
+      <p> <%= usertest[i].username %> </p>
+      <% } %>  
+      </div>
+
+    </main>
+  </body>
 </html>
