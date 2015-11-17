@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <% include ./partials/head %>
+</head>
+  <body class="container">
+
+    <header>
+      <% include ./partials/header %>
+    </header>
+    <main>
+        <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+          <form action='/' method='get'> <!-- need to chnge to post -->
+            <p>
+              <label for='email'>Email:</label>
+              <input id='email' type='text'>
+            <p>
+              <label for='password'>Password:</label>
+              <input id='password' type='password'>
+            <p>
+            <input id='submit' type='submit' value='Submit'>
+            </p>
+          </form>
+        </div>
+        <div class="col-md-2">
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <% include ./partials/footer %>
+    </footer>
+
+      <% include ./partials/scripts %>
+
+  </body>
+</html>

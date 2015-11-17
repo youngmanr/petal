@@ -7,3 +7,14 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+
+
+
+
+/*
+var register = require('./routes/register');
+var login = require('./routes/login');
+app.use('/register', register);
+app.use('/login', login);
+*/
