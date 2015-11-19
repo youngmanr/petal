@@ -15,7 +15,7 @@ p {
 	text-align: right;
 	padding-right: 180px;
 	font-size: 18px;
-	margin-top: 5px;	
+	margin-top: 5px;
 	padding-bottom: 5px;
 	color: #565656;
 }
@@ -47,5 +47,56 @@ input {
     width: 100px;
     background-color: red;
     border-radius: 100%;
+ }
+
+ #all_moods {
+  max-width: 968px;
+  margin: 200px auto 0px auto;
+ }
+
+ #all_moods > button {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 0px;
+    margin: 0px 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+ }
+
+ #all_moods > button:focus {
+  outline:0;
+ }
+
+ .angry {
+  background-color: #fff;
+  background-image: url('http://pix.iemoji.com/images/emoji/apple/8.3/256/face-with-look-of-triumph.png');
+  background-size: 150px 150px;
+ }
+
+ .upset {
+  background-color: #fff;
+  background-image: url('http://pix.iemoji.com/images/emoji/apple/8.3/256/disappointed-but-relieved-face.png');
+  background-size: 150px 150px;
+ }
+
+ .ok {
+  background-color: #fff;
+  background-image: url('http://pix.iemoji.com/images/emoji/apple/8.3/256/neutral-face.png');
+  background-size: 150px 150px;
+ }
+
+ .happy {
+  background-color: #fff;
+  background-image: url('https://images.rapgenius.com/d0c425c18223e25ff98d97875173379e.200x200x1.png');
+  background-size: 150px 150px;
+ }
+
+ .ecstatic {
+  background-color: #fff;
+  background-image: url('http://rlv.zcache.ca/happy_face_emoticon_round_sticker-r409d6221ec1546d6a7808ec489901919_v9waf_8byvr_324.jpg');
+  background-size: 150px 150px;
  }
 
