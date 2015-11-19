@@ -15,19 +15,13 @@
         <div class="col-md-2">
         </div>
         <div class="col-md-8">
-          <form action='/' method='get'> <!-- need to chnge to post -->
+          <form action='/signup' method='post'> <!-- need to chnge to post -->
             <p>
-              <label for='name'>Name:</label>
-              <input id='name' type='text'>
-            <p>
-              <label for='email'>Email:</label>
-              <input id='email' type='text'>
+              <label for='username'>Name:</label>
+              <input name='username' type='text'>
             <p>
               <label for='password'>Password:</label>
-              <input id='password' type='password'>
-            <p>
-              <label for='password_confirmation'>Password confirmation:</label>
-              <input id='password_confirmation' type='password'>
+              <input name='password' type='password'>
             <p>
             <input id='submit' type='submit' value='Submit'>
             </p>
@@ -41,7 +35,7 @@
     <footer>
       <% include ./partials/footer %>
     </footer>
-      
+
       <% include ./partials/scripts %>
 
   </body>
