@@ -3,6 +3,119 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.row {
+  margin-top: 100px;
+}
+
 a {
   color: #00B7FF;
+}
+
+p {
+	text-align: right;
+	padding-right: 180px;
+	font-size: 18px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	color: #565656;
+}
+
+input {
+	width: 256px;
+	height: 23px;
+}
+
+#submit {
+	font-weight: 500;
+  font-size: 20px;
+  height: 30px;
+  border-radius: 20px;
+  width: 150px;
+  border: none;
+  color: #F3F2F2;
+  background-color: #565656;
+}
+
+.mood1 {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border-radius: 100%;
+}
+
+.mood2 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 100%;
+}
+
+#all_moods {
+  padding-left: 18px;
+  margin: 60px auto 0px auto;
+}
+
+#all_moods > button {
+  height: 200px;
+  width: 200px;
+  border: 0px;
+  margin: 0px 10px;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-out;
+  -moz-transition: background-size 0.2s ease-out;
+  -o-transition: background-size 0.2s ease-out;
+  background-position: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 130px;
+  margin-left: 6px;
+  letter-spacing: .75px;
+  font-family: Helvetica;
+}
+
+#all_moods > button:focus {
+  outline:0;
+}
+
+#all_moods > button:hover {
+  background-repeat: no-repeat;
+  background-size: 180px 180px;
+}
+
+.angry {
+  background-color: #fff;
+  background-image: url('http://pix.iemoji.com/images/emoji/apple/8.3/256/face-with-look-of-triumph.png');
+  background-size: 150px 150px;
+}
+
+.upset {
+  background-color: #fff;
+  background-image: url('http://pix.iemoji.com/images/emoji/apple/8.3/256/disappointed-but-relieved-face.png');
+  background-size: 150px 150px;
+}
+
+.ok {
+  background-color: #fff;
+  background-image: url('http://pix.iemoji.com/images/emoji/apple/8.3/256/neutral-face.png');
+  background-size: 150px 150px;
+}
+
+.happy {
+  background-color: #fff;
+  background-image: url('https://images.rapgenius.com/d0c425c18223e25ff98d97875173379e.200x200x1.png');
+  background-size: 150px 150px;
+}
+
+.ecstatic {
+  background-color: #fff;
+  background-image: url('https://keetonsonline.files.wordpress.com/2015/05/0753.png');
+  background-size: 150px 150px;
+}
+
+#arrow {
+  width: 200px;
+/*  transform: rotate(0deg);*/
+  transform-origin: 100% 0%;
 }

@@ -9,7 +9,6 @@
     <header>
       <% include ./partials/header %>
     </header>
-
     <main>
         <div class="row">
         <div class="col-md-2">
@@ -17,17 +16,11 @@
         <div class="col-md-8">
           <form action='/' method='get'> <!-- need to chnge to post -->
             <p>
-              <label for='name'>Name:</label>
-              <input id='name' type='text'>
-            <p>
               <label for='email'>Email:</label>
               <input id='email' type='text'>
             <p>
               <label for='password'>Password:</label>
               <input id='password' type='password'>
-            <p>
-              <label for='password_confirmation'>Password confirmation:</label>
-              <input id='password_confirmation' type='password'>
             <p>
             <input id='submit' type='submit' value='Submit'>
             </p>
@@ -41,7 +34,7 @@
     <footer>
       <% include ./partials/footer %>
     </footer>
-      
+
       <% include ./partials/scripts %>
 
   </body>
