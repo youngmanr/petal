@@ -1,13 +1,23 @@
+// console.log('Passes A')
 var LocalStrategy   = require('passport-local').Strategy;
+// console.log('Passes B')
 var User = require('../models/user');
+// console.log('Passes C')
 var bCrypt = require('bcrypt-nodejs');
+
+// console.log('Passes 1')
 
 module.exports = function(passport){
 
+// console.log('Passes 2')
+
   passport.use('signup', new LocalStrategy({
             passReqToCallback : true // allows us to pass back the entire request to the callback
+// console.log('Passes 3')
         },
+        // console.log('Passes 4')
         function(req, username, password, done) {
+          // console.log('Passes 5')
 
             findOrCreateUser = function(){
                 // find a user in Mongo with provided username
