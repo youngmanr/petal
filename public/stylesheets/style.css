@@ -114,3 +114,8 @@ h1 {
   background-size: 150px 150px;
 }
 
+#arrow {
+  width: 200px;
+/*  transform: rotate(0deg);*/
+  transform-origin: 100% 0%;
+}
