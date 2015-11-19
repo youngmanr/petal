@@ -67,4 +67,4 @@ module.exports = function(passport){
 //     });
 // });
 
-module.exports = router;
+// module.exports = router;
