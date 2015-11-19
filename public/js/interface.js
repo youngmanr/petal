@@ -3,7 +3,7 @@ $(document).ready( function() {
 
   $('a[href="' + this.location.pathname + '"]').parents('li,ul').addClass('active');
 
-  function temp_up() {
+  $('#up').click( function() {
     degrees += 54;
     $('#arrow').css('transform', 'rotate('+degrees+'deg)');
   });
