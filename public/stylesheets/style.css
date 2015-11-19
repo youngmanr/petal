@@ -75,6 +75,13 @@ h1 {
   font-family: Helvetica;
 }
 
+#chart, #arrow {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+
 #all_moods > button:focus {
   outline:0;
 }
@@ -115,7 +122,11 @@ h1 {
 }
 
 #arrow {
-  width: 200px;
-/*  transform: rotate(0deg);*/
+  right: 110px;
+  bottom: 190px;
+  width: 230px;
+  transform: rotate(-18deg);  -18, 36, 90, 144, 198 
   transform-origin: 100% 0%;
 }
+
+
