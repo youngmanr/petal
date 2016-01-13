@@ -1,3 +1,5 @@
+
+### Instructions
 Start the mongodb using
 
 ``` mongod --dbpath /Users/robertyoungman/makers/Projects/petal/data/ ```
@@ -9,6 +11,13 @@ Start the server
 or
 
 ```npm start```
+
+### Screenshots
+
+![Screenshot1](screenshots/register.png)
+![Screenshot1](screenshots/moodSelect.png)
+![Screenshot1](screenshots/homePage.png)
+
 
 Things left to do
 * connect the mood buttons to the server so the current mood of the user can be stored in the database
